@@ -3,8 +3,8 @@
 Week 0 - Warming up
 
 - 0.1 | Intro, Setting up your IDE ([**Slides**](https://slides.com/harkiratsingh-8/deck))
-- 0.2 | HTML Basics (Tags and Attributes) (Above Slide)
-- 0.3 | CSS Basics (Above Slide)
+- 0.2 | HTML Basics (Tags and Attributes) (**Above Slide**)
+- 0.3 | CSS Basics (**Above Slide**)
 
 Week 1
 
@@ -21,5 +21,5 @@ Week 01 - Orientation, HTML/CSS/Basic JS
 Cohort 02 - Warmup Videos
 
 - 1 | Intro, Setting up your IDE ([**Slides**](https://slides.com/harkiratsingh-8/deck))
-- 2 | HTML Basics (Tags and Attributes) (Above Slide)
-- 3 | CSS Basics (Above Slide)
+- 2 | HTML Basics (Tags and Attributes) (**Above Slide**)
+- 3 | CSS Basics (**Above Slide**)
