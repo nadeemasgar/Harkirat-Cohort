@@ -10,6 +10,7 @@
 
 - 1.1 | Orientation class ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+1.1.pdf))
 - 1.2 | JS Foundation ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+1.2.pdf))
+- 1.3 | How to solve assignments ([**GitHub**](https://github.com/100xdevs-cohort-2/assignments))
 
 # Cohort 3.0
 
