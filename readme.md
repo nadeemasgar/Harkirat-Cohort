@@ -11,6 +11,9 @@
 - 1.1 | Orientation class ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+1.1.pdf))
 - 1.2 | JS Foundation ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+1.2.pdf))
 - 1.3 | How to solve assignments ([**GitHub**](https://github.com/100xdevs-cohort-2/assignments))
+- 1.3 | Basics JS APIs (Beginners) ([**GitHub**](https://github.com/100xdevs-cohort-2/assignments/tree/master/week-1/offline-class-1))
+- 1.4 | Loops, Functions and callbacks ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/loops.pdf))
+- 1.5 | Async, Await and Promises ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/async%20js.pdf))
 
 # Cohort 3.0
 
