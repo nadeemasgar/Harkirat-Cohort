@@ -19,6 +19,8 @@
 
 - 2.1 | Revision of Promises, Async JS ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+2.1.pdf))
 - 2.2 | Node.js runtime | HTTP ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+2.1.pdf))
+- 2.3 | Bash and terminal (**Add in notes.md**)
+- 2.4 | Bash (Advance), how to install node (**Add in notes.md**)
 
 # Cohort 3.0
 
