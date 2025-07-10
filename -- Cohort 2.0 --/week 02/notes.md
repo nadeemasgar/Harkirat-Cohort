@@ -74,6 +74,132 @@ How to create a bash script ?
 ---
 
 **Installation of node in MAC**
+
 - Install homebrew
 - brew install node
 - Add some changes in your bash file (i.e .zshrc file)
+
+---
+
+**Few Ways in which user can give an input when they are sending the request to you**
+
+- Query Parameter -> After question part, put your values
+
+  - Example - http://localhost:3000/?n=3&a=2
+  - Catch the query params -> rec.query.n
+  - For get request, client sent the data using query params
+
+- Body -> For post request, you send the data in the body
+  - Body is an another place where you can put the data
+
+**Creating a wildcard route ->**
+
+```js
+app.get("/files/:fileName", function (req, res) {
+  const name = req.params.fileName;
+});
+```
+
+---
+
+**GitHub Notes**
+
+- Git Initialisation
+
+  - git init
+  - ls -la -> To check .git file
+  - master is the central branch by default
+  - git status
+  - git add .
+  - git rm --cached fileName -> To unstage the particular file
+  - git commit -m "message"
+  - git push
+  - git remote -v
+  - git remote add origin REMOTE_LINK
+  - git push
+  - git push origin master
+  - git push --set-upstream origin master
+
+- Cloning the repository
+
+  - git clone REMOTE_URL
+  - When we have clone the repo, we don't have to set the remote url using the (git remote add origin REMOTE_LINK) command
+
+- How you can authenticate your local github client to be able to make this commit
+
+  - Using SSH keys to authenticate and sign all of those commit
+  - Add a new SSH keys to your github account to make the connection between local computer and remote repository - Command -> ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  - GitHub Doc Link -> ([**link**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=mac))
+  - ![Preview](/git_ssh.png)
+  - Type command -> (ls -la) to view the pub file. (For example, the fileName is testauthkey.pub)
+  - cat testauthkey.pub -> To view the ssh key
+  - Copy the public key to the clipboard
+  - Add the SSH Keys to the GitHub account ([**Github Link**](https://github.com/settings/keys))
+
+- Git Branching
+
+  - You create a feature branch to add your changes and testing it before merging it to master branch.
+  - git checkout -b feature_update_files
+  - git checkout master
+  - git diff feature_update_files
+  - git push --set-upstream origin feature_update_files
+  - Or git push -u origin feature_update_files
+  - git branch -d feature_update_files
+  - git merge main -> ❌ You're currently on another branch (e.g., feature-xyz), and you want to bring all the latest changes from main into it.
+
+- Pull Request
+
+  - If you are not owner of the repository, and someone else has to review your code and then the code will be added to the repository. Then, you can create you pull request.  
+    Anybody who reviews your code will merge your code to master.
+  - Raise a PR and create a pull request
+
+- Git Merge Conflict
+
+  - These conflicts can arise at two main points during the merge process:
+
+    1. While starting the merge process -> <br>
+
+       - Git will not start the merge if your working directory has unsaved or staged changes.
+       - Git requires a "clean working directory" before performing a merge to avoid mixing pending changes with incoming commits.
+       - Git halts the process and asks you to commit or stash your changes. Once your working directory is clean, you can try the merge again.
+
+    2. During the merge process -> <br>
+
+       - A conflict occurs when the same part of a file has been changed differently in both branches.
+       - Git will try to auto-merge as much as it can but will flag the files it can't resolve.
+       - You must open the conflicted file and manually choose or combine changes.
+       - After resolving, you run git add <file> and then git commit.
+
+  - ✅ Summary
+    | **Scenario** | **What Happens** | **Resolution** |
+    | ------------------ | --------------------------------------- | -------------------------- |
+    | Starting the merge | Merge is blocked due to unsaved changes | Commit or stash changes |
+    | During the merge | Merge continues but halts at conflicts | Manually resolve conflicts |
+
+  - HEAD is the pointer which is pointing to the master branch
+
+  - **🛠️ Git Commands to Resolve Conflicts**
+
+    - **`git log --merge`**: Produces the list of commits that are causing the conflict.
+    - **`git diff`**: Identifies the differences between the states of repositories or files.
+    - **`git checkout`**: Used to undo the changes made to the file or to switch branches.
+    - **`git reset`**: Used at the time of a merge conflict to reset the conflicted files to their original state.
+    - **`git reset --mixed`**: Used to undo changes to the working directory and staging area.
+    - **`git merge --abort`**: Helps in exiting the merge process and returning to the state before the merge began.
+
+  - **Issues in GitHub**
+
+    - Issues are used to track bugs, tasks, enhancements, feature requests, or questions within a repository.
+    - Issues can me mentioned in a pull request and cross-link in the PR
+    - ✅ Syntax and Examples
+    - | Linked Issue Type         | Syntax                                  | Example                                                        |
+      | ------------------------- | --------------------------------------- | -------------------------------------------------------------- |
+      | Issue in the same repo    | `KEYWORD #ISSUE-NUMBER`                 | `Closes #10`                                                   |
+      | Issue in a different repo | `KEYWORD OWNER/REPOSITORY#ISSUE-NUMBER` | `Fixes octo-org/octo-repo#100`                                 |
+      | Multiple issues           | Use full syntax for each issue          | `Resolves #10, resolves #123, resolves octo-org/octo-repo#100` |
+
+    - Common Keywords
+
+      - `close`, `closes`, `closed`
+      - `fix`, `fixes`, `fixed`
+      - `resolve`, `resolves`, `resolved`
