@@ -25,6 +25,10 @@
 - 2.6 | filter, map, arrow fns
 - 2.7 | Git/github ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/week+2.1.pdf))
 
+**Week 3**
+
+- 3.1 | Middlewares and global catches ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/Week+3.1.pdf))
+
 # Cohort 3.0
 
 **Week 01 - Orientation, HTML/CSS/Basic JS**
