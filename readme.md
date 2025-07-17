@@ -28,6 +28,7 @@
 **Week 3**
 
 - 3.1 | Middlewares and global catches ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/Week+3.1.pdf))
+- 3.2 | Databases and auth ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/3.2.pdf))
 
 # Cohort 3.0
 
