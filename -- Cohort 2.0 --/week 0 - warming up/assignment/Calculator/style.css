@@ -1,0 +1,48 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 40%;
+  height: 300px;
+  padding: 40px 0px;
+  margin: 50px auto 0px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+.input-container {
+  margin-top: 20px;
+  color: rgb(42, 38, 38);
+  font-size: 20px;
+}
+
+.input-container input {
+  height: 30px;
+  padding: 10px;
+}
+
+#btn {
+  align-self: flex-end;
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+}
+
+input[type="checkbox"],
+label[for="compound"] {
+  vertical-align: middle;
+}
+
+#result {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid grey;
+  background-color: beige;
+}

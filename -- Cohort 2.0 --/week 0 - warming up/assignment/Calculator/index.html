@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main-container">
+        <div>
+          <div class="input-container">
+            <label for="capital">Capital:</label>
+            <input
+              id="capital"
+              type="number"
+              name="capital"
+              placeholder="Capital"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="years">Years:</label>
+            <input
+              type="number"
+              name="years"
+              id="years"
+              placeholder="Years"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="interest">Interest :</label>
+            <input
+              type="number"
+              name="interest"
+              id="interest"
+              placeholder="Interest"
+              required
+            />
+          </div>
+        </div>
+        <div>
+          <div class="input-container">
+            <input type="checkbox" name="compound" id="compound" required />
+            <label for="compound">Compound</label>
+          </div>
+          <div id="result">Final Amount -> 0.0</div>
+        </div>
+        <button id="btn">Calculate</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <!-- Script should be written last -->
+  </body>
+</html>
