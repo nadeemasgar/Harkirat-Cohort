@@ -14,9 +14,9 @@ btn.addEventListener("click", function (e) {
   let amount = 0;
   if (isCompoundValue) {
     // Compound Interest Formula:
-    amount = principal + (principal * rate * time) / 100;
-  } else {
     amount = principal * (1 + rate / 100) ** time;
+  } else {
+    amount = principal + (principal * rate * time) / 100;
   }
 
   amount = amount.toFixed(2);
