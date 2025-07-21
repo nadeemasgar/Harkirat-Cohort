@@ -9,15 +9,15 @@ There is no automated test for this one, this is more for you to understand time
 */
 
 function calculateTime(n) {
-  const currentTime = Date.now();
+  const currentTime = Date.now(); // milliseconds
   let sum = 0;
   for (let i = 1; i <= n; i++) {
     sum += i;
   }
 
   const finishTime = Date.now();
-  const diff = finishTime - currentTime;
+  const diff = (finishTime - currentTime) / 1000; // convert ms to seconds
   console.log(diff);
 }
 
-calculateTime(100000);
+calculateTime(10000000000);
