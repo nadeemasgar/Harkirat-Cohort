@@ -28,8 +28,13 @@
 **Week 3**
 
 - 3.1 | Middlewares and global catches ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/Week+3.1.pdf))
-- 3.2 | 3.2 | Databases and Authentication (Local Recording) ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/3.2.pdf))
-- 3.3 | Databases and Authentication (Local Recording)
+  - 3.1 | Zod, Middlewares (Local Recording) (Same video as above)
+- 3.2 | Databases and Auth ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/3.2.pdf))
+  - 3.2 | Databases and Authentication (Local Recording) (Same video as above)
+  - 3.3 | Databases and Authentication (Local Recording) (Same video as above)
+- 3.3 | JWT and Auth Recap and Assignment
+- 3.4 | Middleware Recap and Assignments
+- 3.5 | DOM Introduction (Laisha)
 
 # Cohort 3.0
 
