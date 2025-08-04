@@ -34,7 +34,7 @@
   - 3.3 | Databases and Authentication (Local Recording) (Same video as above)
 - 3.3 | JWT and Auth Recap and Assignment
 - 3.4 | Middleware Recap and Assignments
-- 3.5 | DOM Introduction (Laisha)
+- 3.5 | DOM Introduction (Laisha) ([**Slides**](https://docs.google.com/presentation/d/1x_F2s_U8rW2BqP2dr2bgNyYoV0qagzDaBN_nelZQZd4/edit?pli=1&slide=id.p#slide=id.p))
 
 # Cohort 3.0
 
