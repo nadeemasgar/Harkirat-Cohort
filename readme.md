@@ -36,6 +36,11 @@
 - 3.4 | Middleware Recap and Assignments
 - 3.5 | DOM Introduction (Laisha) ([**Slides**](https://docs.google.com/presentation/d/1x_F2s_U8rW2BqP2dr2bgNyYoV0qagzDaBN_nelZQZd4/edit?pli=1&slide=id.p#slide=id.p))
 
+**Week 4**
+
+- 4.1 | DOM Introduction ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/4.1.pdf))
+- 4.2 | React foundation ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/4.2%20React%20Foundation.pdf))
+
 # Cohort 3.0
 
 **Week 01 - Orientation, HTML/CSS/Basic JS**
