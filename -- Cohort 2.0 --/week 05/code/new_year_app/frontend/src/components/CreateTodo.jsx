@@ -1,5 +1,5 @@
 import { useState } from "react";
-export function CreateTodo() {
+export function CreateTodo({ setTodos }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
@@ -35,6 +35,10 @@ export function CreateTodo() {
             },
           }).then(async function (res) {
             const json = await res.json();
+            setTodos((prev) => [
+              ...prev,
+              { title, description, completed: false },
+            ]);
             alert("Todo added");
           });
         }}

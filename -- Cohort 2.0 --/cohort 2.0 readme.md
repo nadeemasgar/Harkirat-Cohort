@@ -45,3 +45,4 @@
 **Week 5**
 
 - 5.1 | React Foundations ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/5.1-1.pdf))
+- 5.2 | React Project (Todo app) (Reupload)
