@@ -2,31 +2,18 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  return (
-    <div>
-      <HeaderWithButton />
-      <Header title="harkirat2"></Header>
-    </div>
-  );
+  return <CardWrapper innerComponent={<TextComponent />} />;
 }
 
-function HeaderWithButton() {
-  const [title, setTitle] = useState("my name is harkirat");
-
-  function updateTitle() {
-    setTitle("my name is " + Math.random());
-  }
-
-  return (
-    <>
-      <button onClick={updateTitle}>Update the title</button>
-      <Header title={title}></Header>
-    </>
-  );
+function TextComponent() {
+  return <div>Hi therr</div>;
 }
 
-function Header({ title }) {
-  return <div>{title}</div>;
+function CardWrapper({ innerComponent }) {
+  // Create a div which has a border
+  // and inside the div, render the props
+
+  return <div style={{ border: "2px solid black" }}>{innerComponent}</div>;
 }
 
 export default App;
