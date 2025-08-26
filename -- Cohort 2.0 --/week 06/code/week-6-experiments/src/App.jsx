@@ -2,18 +2,13 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  return <CardWrapper innerComponent={<TextComponent />} />;
+  return <CardWrapper>Hi There</CardWrapper>;
 }
 
-function TextComponent() {
-  return <div>Hi therr</div>;
-}
-
-function CardWrapper({ innerComponent }) {
-  // Create a div which has a border
-  // and inside the div, render the props
-
-  return <div style={{ border: "2px solid black" }}>{innerComponent}</div>;
+function CardWrapper({ children }) {
+  return (
+    <div style={{ border: "2px solid black", padding: 20 }}>{children}</div>
+  );
 }
 
 export default App;
