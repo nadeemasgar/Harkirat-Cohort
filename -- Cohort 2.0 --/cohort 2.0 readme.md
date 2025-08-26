@@ -46,3 +46,7 @@
 
 - 5.1 | React Foundations ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/5.1-1.pdf))
 - 5.2 | React Project (Todo app) (Reupload)
+
+**Week 6**
+
+- 6.1 | React hooks ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/6.1.pdf))
