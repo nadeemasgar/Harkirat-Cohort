@@ -50,3 +50,6 @@
 **Week 6**
 
 - 6.1 | React hooks ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/6.1.pdf))
+- 6.2 | useEffect, useMemo, useCallback ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/6.2.pdf))
+- 6.3 | React, useRef, useState, useEffect, reconcilliation, re-rendering, useMemo, useCallback - with examples ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/6.3.pdf))
+- 6.4 | Assignment solution
