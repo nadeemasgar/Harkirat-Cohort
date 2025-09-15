@@ -53,3 +53,7 @@
 - 6.2 | useEffect, useMemo, useCallback ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/6.2.pdf))
 - 6.3 | React, useRef, useState, useEffect, reconcilliation, re-rendering, useMemo, useCallback - with examples ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/6.3.pdf))
 - 6.4 | Assignment solution
+
+**Week 7**
+
+- 7.1 | Context API, prop drilling ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/Week%207.1%20-%20Routing%20,%20Prop%20drilling%20&%20Context%20API.pdf))
