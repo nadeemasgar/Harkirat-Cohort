@@ -59,3 +59,7 @@
 - 7.1 | Context API, prop drilling ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/Week%207.1%20-%20Routing%20,%20Prop%20drilling%20&%20Context%20API.pdf))
 - 7.2 | Context API, Recoil ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/Week%207.2%20Context%20API%20State%20Management,%20Recoil.pdf))
 - 7.4 | Recoil Deep dive ([**Slides**](https://drive.google.com/file/d/1p7WAMz3X38vkbQMFW6-8kmKYo3dHtcLv/view))
+
+**Week 8**
+
+- 8.1 | Tailwind ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/8%20Tailwind.pdf))
