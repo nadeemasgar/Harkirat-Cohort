@@ -63,3 +63,6 @@
 **Week 8**
 
 - 8.1 | Tailwind ([**Slides**](https://100x-b-mcdn.akamai.net.in/cohort-2-slides/8%20Tailwind.pdf))
+- 8.2 | Recap everything, build PayTM ([**Slides**](https://projects.100xdevs.com/tracks/oAjvkeRNZThPMxZf4aX5/JLaLbhDuYn3h5Cn7WJu1))
+- 8.3 | Axios vs fetch
+- 8.4 | PayTM Frontend ([**Slides**](https://projects.100xdevs.com/tracks/oAjvkeRNZThPMxZf4aX5/JLaLbhDuYn3h5Cn7WJu1))
