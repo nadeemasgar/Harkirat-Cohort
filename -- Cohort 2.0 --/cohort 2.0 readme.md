@@ -66,3 +66,9 @@
 - 8.2 | Recap everything, build PayTM ([**Slides**](https://projects.100xdevs.com/tracks/oAjvkeRNZThPMxZf4aX5/JLaLbhDuYn3h5Cn7WJu1))
 - 8.3 | Axios vs fetch
 - 8.4 | PayTM Frontend ([**Slides**](https://projects.100xdevs.com/tracks/oAjvkeRNZThPMxZf4aX5/JLaLbhDuYn3h5Cn7WJu1))
+
+**Week 9**
+
+- 9.1 | Custom hooks ([**Slides**](https://projects.100xdevs.com/tracks/3Vhp7rCJUVjnvFuPxZSZ/Custom-Hooks-1))
+- 9.2 | Typescript Intro ([**Slides**](https://projects.100xdevs.com/tracks/6SbPPXGkG8QKFOTW9BmL/ts-1))
+- 9.3 | Generics, enums, imports, exports ([**Slides**](https://projects.100xdevs.com/tracks/6SbPPXGkG8QKFOTW9BmL/ts-9))
