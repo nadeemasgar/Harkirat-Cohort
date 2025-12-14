@@ -72,3 +72,19 @@
 - 9.1 | Custom hooks ([**Slides**](https://projects.100xdevs.com/tracks/3Vhp7rCJUVjnvFuPxZSZ/Custom-Hooks-1))
 - 9.2 | Typescript Intro ([**Slides**](https://projects.100xdevs.com/tracks/6SbPPXGkG8QKFOTW9BmL/ts-1))
 - 9.3 | Generics, enums, imports, exports ([**Slides**](https://projects.100xdevs.com/tracks/6SbPPXGkG8QKFOTW9BmL/ts-9))
+
+**Week 10** (Not completed)
+
+- 10.0.1 | Cohort 1 Postgres video (Not completed)
+
+**Week 11**
+
+- 11.1 | Serverless Fns ([**Slides**](https://projects.100xdevs.com/tracks/eooSv7lnuwBO6wl9YA5w/serverless-1))
+- 11.2 | AWS Deployments ([**Slides**](https://projects.100xdevs.com/tracks/g0AcDSPl74nk45ZZjRdU/aws-1))
+- 11.3 | Certificate management and AWS Revision ([**Slides**](https://projects.100xdevs.com/tracks/g0AcDSPl74nk45ZZjRdU/aws-1))
+
+**Week 12**
+
+- 12.1 | Deploying Frontends on AWS ([**Slides**](https://projects.100xdevs.com/tracks/w5E6PT2t0IyOFM3bZxcM/aws-fe-1))
+- 12.2 | Advance Typescript APIs ([**Slides**](https://quickest-juniper-f9c.notion.site/Week-12-2-6797f8c639d84af7a11c5a4b718299b5))
+- Cohort 1 - Deploying npm packages, Intro to Monorepos 
